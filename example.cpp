@@ -12,8 +12,8 @@ struct member{
 
 void add(struct member *A)
 {
-	cout<<"no. >";
-	cin>>A->no ;
+	cout<<"number. >";
+	cin>>A->no;
 	cout<<"name. >";
 	cin>>A->name;
 	cout<<"age. >";
@@ -21,11 +21,11 @@ void add(struct member *A)
 }
 
 void menu_print(){
-    cout<<"\n====menu==="<<endl;
-	cout<<"1.input new member"<<endl;
+        cout<<"\n====menu==="<<endl;
+	cout<<"1. input new member"<<endl;
 	cout<<"2. search"<<endl;
 	cout<<"3. number of members"<<endl;
-	cout<<"5. exit\n"<<endl;
+	cout<<"4. exit\n"<<endl;
 }
 
 int main()
@@ -62,7 +62,7 @@ int main()
 					if(A[f].no==c){
 						cout<<"age : "<<A[f].age<<endl;
 						cout<<"name : "<<A[f].name<<endl;
-						cout<<"no : "<<A[f].no<<endl;
+						cout<<"number : "<<A[f].no<<endl;
 					}
 				}
 
@@ -70,7 +70,7 @@ int main()
 			case 3 :
 				cout<<"("<<l<<")"<<"members"<<endl;
 				break;
-			case 5 : break;
+			case 4 : exit(0);
 					};
 
 	};
