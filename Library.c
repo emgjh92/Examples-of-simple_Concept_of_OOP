@@ -2,7 +2,7 @@
 #include <stdlib.h> // 문자열 변환, 동적 메모리 관리 등의 함수를 위한 헤더파일 
 #include <string.h> //문자열 해더 파일 
 // 컴파일 환경 windows 7 OS, Dev C++ 5.11 
-// 정상 컴파일 가능 
+
 /* This example was created on September 30, 2016*/
 /* This is an example for the basic concept of OOP(Object-oriented programming) */
 
